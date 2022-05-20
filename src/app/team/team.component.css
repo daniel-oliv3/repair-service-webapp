@@ -1,0 +1,47 @@
+/* ======= Team Section/Seção de Time ======= */
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  align-items: flex-start;
+}
+.team .box-container .box {
+  overflow: hidden;
+  text-align: center;
+}
+.team .box-container .box:hover .content {
+  margin-bottom: 0;
+}
+.team .box-container .box img {
+  width: 100%;
+}
+.team .box-container .box .content {
+  padding: 2rem;
+  margin-bottom: -7rem;
+}
+.team .box-container .box .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #334;
+}
+.team .box-container .box .content p {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #334;
+  padding: 0.5rem 0;
+}
+.team .box-container .box .content .share {
+  margin-top: 1.5rem;
+}
+.team .box-container .box .content .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 4.5rem;
+  margin: 0 0.3rem;
+  background: #334;
+  color: #fff;
+}
+.team .box-container .box .content .share a:hover {
+  background: #2597f4;
+}
