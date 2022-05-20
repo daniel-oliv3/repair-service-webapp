@@ -1,0 +1,59 @@
+/* ======= Header Section/Seção do Cabeçalho ======= */
+.header .contact-info {
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2597f4;
+}
+.header .contact-info p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.header .contact-info p i {
+  padding-right: 0.5rem;
+  color: yellow;
+}
+.header .navbar {
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 0.2rem solid #334;
+  position: relative;
+  z-index: 1000;
+}
+.header .navbar.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.header .navbar .logo {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #334;
+  font-weight: bolder;
+}
+.header .navbar .logo i {
+  color: #2597f4;
+}
+.header .navbar .links a {
+  margin-left: 2rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #334;
+}
+.header .navbar .links a:hover {
+  text-decoration: underline;
+  color: #2597f4;
+}
+.header #menu-btn {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #334;
+  display: none;
+}
