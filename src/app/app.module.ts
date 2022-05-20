@@ -12,6 +12,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { TeamComponent } from './team/team.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
     GalleryComponent,
     FacilitiesComponent,
     TeamComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

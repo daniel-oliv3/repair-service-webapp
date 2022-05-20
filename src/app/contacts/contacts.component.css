@@ -1,0 +1,51 @@
+/* ======= Contact Section/Seção de Contatos ======= */
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.contact .row .map {
+  flex: 1 1 42rem;
+  width: 100%;
+  /*largura*/
+}
+.contact .row form {
+  flex: 1 1 42rem;
+  padding: 2rem;
+  border: 0.2rem solid #334;
+}
+.contact .row form h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #334;
+  padding-bottom: 1rem;
+}
+.contact .row form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact .row form .inputBox input {
+  width: 49%;
+}
+.contact .row form .inputBox input, .contact .row form textarea {
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: #777;
+  margin: 0.7rem 0;
+  border: 0.2rem solid #334;
+}
+.contact .row form .inputBox input:focus, .contact .row form textarea:focus {
+  background: #334;
+  color: #fff;
+}
+.contact .row form .inputBox input:focus::placeholder, .contact .row form textarea:focus::placeholder {
+  color: #fff;
+}
+.contact .row form textarea {
+  width: 100%;
+  /*Largura*/
+  height: 15rem;
+  /*altura*/
+  resize: none;
+}
