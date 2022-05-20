@@ -1,0 +1,27 @@
+/* ======= Home Section/Seção inicial ======= */
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.home .image {
+  flex: 1 1 42rem;
+}
+.home .image img {
+  width: 100%;
+}
+.home .content {
+  flex: 1 1 42rem;
+}
+.home .content h3 {
+  font-size: 4.5rem;
+  text-transform: capitalize;
+  color: #334;
+}
+.home .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  padding: 1rem 0;
+}
