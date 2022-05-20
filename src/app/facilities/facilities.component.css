@@ -1,0 +1,40 @@
+/* ======= Facilities Section/Seção de Instalações ======= */
+.facilities {
+  background: #f5f5f5;
+}
+.facilities .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.facilities .box-container .box {
+  background: #fff;
+  padding: 3rem;
+  text-align: center;
+  border: 0.2rem solid #334;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.facilities .box-container .box:hover {
+  background: #334;
+}
+.facilities .box-container .box:hover h3 {
+  color: #fff;
+}
+.facilities .box-container .box:hover p {
+  color: #fff;
+}
+.facilities .box-container .box img {
+  height: 10rem;
+  margin-bottom: 0.5rem;
+}
+.facilities .box-container .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #334;
+}
+.facilities .box-container .box p {
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #777;
+}
