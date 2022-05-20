@@ -13,6 +13,7 @@ import { FacilitiesComponent } from './facilities/facilities.component';
 import { TeamComponent } from './team/team.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     FacilitiesComponent,
     TeamComponent,
     ReviewsComponent,
-    ContactsComponent
+    ContactsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
