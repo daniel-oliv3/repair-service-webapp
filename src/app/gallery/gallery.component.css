@@ -1,0 +1,17 @@
+/* ======= Gallery Section/Seção de Galeria ======= */
+.gallery .gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.gallery .gallery-container .box {
+  height: 25rem;
+  overflow: hidden;
+}
+.gallery .gallery-container .box:hover img {
+  transform: scale(1.1);
+}
+.gallery .gallery-container .box img {
+  height: 100%;
+  width: 100%;
+}
